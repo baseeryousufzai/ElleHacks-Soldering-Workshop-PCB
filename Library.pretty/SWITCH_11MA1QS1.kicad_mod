@@ -463,4 +463,15 @@
 		(remove_unused_layers no)
 		(uuid "a269324e-ac1e-4911-ad37-c8b6c46f867a")
 	)
+	(model "${WISE}/OS102011MA1QS1C.stp"
+		(offset
+			(xyz 2 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

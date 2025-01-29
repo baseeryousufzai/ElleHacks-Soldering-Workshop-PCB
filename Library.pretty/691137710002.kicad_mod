@@ -1,0 +1,198 @@
+(footprint "691137710002"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WR-TBL Serie 1377 - 5.00 mm Horiz Entry w. Pressure Clamp Glow Wire<br></b>Max Height = 11.5mm , Pitch 5mm , 2 Pins")
+	(property "Reference" "REF**"
+		(at 0 -5.135 0)
+		(layer "F.SilkS")
+		(uuid "4fc807f4-a4ad-4671-b5a7-e18cd05bbd0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691137710002"
+		(at 4.12 5.365 0)
+		(layer "F.Fab")
+		(uuid "7e3d92fc-bc9a-477a-ac6c-ec82f39a0bc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b2ab907-a53f-4971-be99-b8e174184259")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89615cec-8600-44c6-bd8f-8b22c274bf99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d8c30d0-e19e-42af-9513-643503f200a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.1 -3.6)
+		(end 5.1 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "664d67ff-0236-48fd-9ffe-ef1d57dd0945")
+	)
+	(fp_line
+		(start -5.1 4.1)
+		(end -5.1 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e21366e-14d5-4648-bed7-05fc4724982b")
+	)
+	(fp_line
+		(start 5.1 -3.6)
+		(end 5.1 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de291634-0b93-476f-9e0e-f5bcfd9670b6")
+	)
+	(fp_line
+		(start 5.1 4.1)
+		(end -5.1 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "157688b8-c613-4fa7-aab8-ac5772c62a0c")
+	)
+	(fp_circle
+		(center -3.4 -1.4)
+		(end -3.3 -1.4)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d72d1be5-53f0-4df6-ad39-5702e3b499e4")
+	)
+	(fp_poly
+		(pts
+			(xy -5.25 -3.75) (xy 5.25 -3.75) (xy 5.25 4.25) (xy -5.25 4.25)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "5ccbbc59-50c7-4be6-b7d8-1037cd8234b7")
+	)
+	(fp_line
+		(start -5 -3.5)
+		(end 5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee4ab6b6-962f-4d4f-8bc2-0f2ce331a7f5")
+	)
+	(fp_line
+		(start -5 4)
+		(end -5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2508ce57-dabb-4a3f-88db-d9c4ee14563f")
+	)
+	(fp_line
+		(start 5 -3.5)
+		(end 5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97947ea8-ee1c-4c64-9bb7-0ef1fd3b773d")
+	)
+	(fp_line
+		(start 5 4)
+		(end -5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46f5bdad-0ae8-4001-a6f6-3bb0d6851851")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "42ad6de4-f977-4cdf-9e95-b4f193f2437c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7580ea4c-4266-454d-b7c6-b78c949dfe31")
+	)
+	(model "${WISE}/691137710002.step"
+		(offset
+			(xyz -5 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -90)
+		)
+	)
+)

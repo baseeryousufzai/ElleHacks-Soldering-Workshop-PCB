@@ -1,0 +1,159 @@
+(footprint "WCAP-ATG8_5X11_DXL_"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<B>WCAP-ATG8</B><BR> Aluminium Electrolytic Capacitors,5X11X2X0.5(DiameterXLengthX PitchXØPin)")
+	(property "Reference" "REF**"
+		(at -0.14 -3.4848 0)
+		(layer "F.SilkS")
+		(uuid "bb851878-9411-4d00-ada2-bc237a9dd36e")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "WCAP-ATG8_5X11_DXL_"
+		(at -0.14 3.3452 0)
+		(layer "F.Fab")
+		(uuid "83092599-9c31-44bf-bde4-22c4e6bb0d98")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9878f87-4a34-4129-8c23-356ccf49f5ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b670b5b6-5277-407b-89d4-acd6af601977")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43baccda-0447-420e-8e9d-e5d9c8b2ba74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 2.6 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5f75e62e-651b-4171-aa28-7fda1c7ac92c")
+	)
+	(fp_poly
+		(pts
+			(xy 0 2.8) (xy -0.147 2.796) (xy -0.293 2.785) (xy -0.438 2.766) (xy -0.582 2.739) (xy -0.725 2.705)
+			(xy -0.865 2.663) (xy -1.003 2.614) (xy -1.139 2.558) (xy -1.271 2.495) (xy -1.4 2.425) (xy -1.525 2.348)
+			(xy -1.646 2.265) (xy -1.762 2.176) (xy -1.874 2.081) (xy -1.98 1.98) (xy -2.081 1.874) (xy -2.176 1.762)
+			(xy -2.265 1.646) (xy -2.348 1.525) (xy -2.425 1.4) (xy -2.495 1.271) (xy -2.558 1.139) (xy -2.614 1.003)
+			(xy -2.663 0.865) (xy -2.705 0.725) (xy -2.739 0.582) (xy -2.766 0.438) (xy -2.785 0.293) (xy -2.796 0.147)
+			(xy -2.8 0) (xy -2.796 -0.147) (xy -2.785 -0.293) (xy -2.766 -0.438) (xy -2.739 -0.582) (xy -2.705 -0.725)
+			(xy -2.663 -0.865) (xy -2.614 -1.003) (xy -2.558 -1.139) (xy -2.495 -1.271) (xy -2.425 -1.4) (xy -2.348 -1.525)
+			(xy -2.265 -1.646) (xy -2.176 -1.762) (xy -2.081 -1.874) (xy -1.98 -1.98) (xy -1.874 -2.081) (xy -1.762 -2.176)
+			(xy -1.646 -2.265) (xy -1.525 -2.348) (xy -1.4 -2.425) (xy -1.271 -2.495) (xy -1.139 -2.558) (xy -1.003 -2.614)
+			(xy -0.865 -2.663) (xy -0.725 -2.705) (xy -0.582 -2.739) (xy -0.438 -2.766) (xy -0.293 -2.785) (xy -0.147 -2.796)
+			(xy 0 -2.8) (xy 0.147 -2.796) (xy 0.293 -2.785) (xy 0.438 -2.766) (xy 0.582 -2.739) (xy 0.725 -2.705)
+			(xy 0.865 -2.663) (xy 1.003 -2.614) (xy 1.139 -2.558) (xy 1.271 -2.495) (xy 1.4 -2.425) (xy 1.525 -2.348)
+			(xy 1.646 -2.265) (xy 1.762 -2.176) (xy 1.874 -2.081) (xy 1.98 -1.98) (xy 2.081 -1.874) (xy 2.176 -1.762)
+			(xy 2.265 -1.646) (xy 2.348 -1.525) (xy 2.425 -1.4) (xy 2.495 -1.271) (xy 2.558 -1.139) (xy 2.614 -1.003)
+			(xy 2.663 -0.865) (xy 2.705 -0.725) (xy 2.739 -0.582) (xy 2.766 -0.438) (xy 2.785 -0.293) (xy 2.796 -0.147)
+			(xy 2.8 0) (xy 2.796 0.147) (xy 2.785 0.293) (xy 2.766 0.438) (xy 2.739 0.582) (xy 2.705 0.725) (xy 2.663 0.865)
+			(xy 2.614 1.003) (xy 2.558 1.139) (xy 2.495 1.271) (xy 2.425 1.4) (xy 2.348 1.525) (xy 2.265 1.646)
+			(xy 2.176 1.762) (xy 2.081 1.874) (xy 1.98 1.98) (xy 1.874 2.081) (xy 1.762 2.176) (xy 1.646 2.265)
+			(xy 1.525 2.348) (xy 1.4 2.425) (xy 1.271 2.495) (xy 1.139 2.558) (xy 1.003 2.614) (xy 0.865 2.663)
+			(xy 0.725 2.705) (xy 0.582 2.739) (xy 0.438 2.766) (xy 0.293 2.785) (xy 0.147 2.796) (xy 0 2.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "5bbc8e48-19fe-41fc-9ecf-9e802d9ba862")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e3767efe-750e-4cc8-8984-e71ad3c15504")
+	)
+	(fp_text user "+"
+		(at 3.3 0.6 0)
+		(layer "F.SilkS")
+		(uuid "af91b5ce-178b-45b6-bbad-6bf1e3768f1b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "78c6aca2-e8cf-4519-b779-9fcd3b7d1a8d")
+	)
+	(pad "2" thru_hole circle
+		(at -1 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "dfb08f72-48b1-4bf7-89b4-c8d52ed2a8ff")
+	)
+	(model "${WISE}/WCAP-ATG8_5X11.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
